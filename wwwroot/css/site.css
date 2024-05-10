@@ -1,0 +1,29 @@
+/* Navbar customization */
+.navbar {
+    font-family: Arial, sans-serif;
+    padding: 0.5rem 1rem;
+    width: 100%; /* Ensure navbar takes full width */
+}
+
+.navbar-brand img {
+    height: 60px; /* Increased size */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+        text-decoration: underline;
+}
+
+/* Search icon adjustment */
+.navbar-nav .nav-item:last-child {
+    margin-left: auto; /* Push the search icon to the far right */
+}
+
+
